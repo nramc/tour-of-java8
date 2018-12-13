@@ -3,7 +3,6 @@ package org.learning.java8.streams;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.stream.Collectors;
 import org.learning.java8.utils.DataGenerator;
 import org.slf4j.Logger;
@@ -26,7 +25,7 @@ public class StreamCollectorDemo {
 		
 		for (Object key : groupByColl.keySet()) {
 			List<String> val = groupByColl.get(key);
-			val.forEach(e -> System.out.println(key + " -> " + e));
+			val.forEach(e -> LOGGER.info(key + " -> " + e));
 		}
 
 	}

@@ -30,5 +30,15 @@ public class DataGenerator {
 		if ( coll != null ) coll.addAll( Arrays.asList("1", "2", "3", "4", "5", "4", "3", "2", "1") );
 		return coll;
 	}
+	
+	public static Collection<String> getLargeCollection(long maxSize) {
+		Collection<String> coll = new ArrayList<String>();
+		
+		for (int idx = 0; idx < maxSize; idx++) {
+			coll.add(String.valueOf(idx));
+		}
+		
+		return coll;
+	}
 
 }
