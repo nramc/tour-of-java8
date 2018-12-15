@@ -8,12 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * <b>Description:</b>
- * 
- * <p>
  * The Class LambdaExpDemo has @Java8 lamba expression examples.
- * </p>
- * 
  * <b>Note:</b> These examples are just created for learning purposes .
  */
 public class LambdaExpDemo {
