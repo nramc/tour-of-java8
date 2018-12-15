@@ -9,10 +9,21 @@ import org.learning.java8.utils.DataGenerator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class StreamParallelProcessDemo.
+ */
 public class StreamParallelProcessDemo {
 
+	/** The Constant LOGGER. */
 	private static final Logger LOGGER = LoggerFactory.getLogger(StreamCollectorDemo.class);
 	
+	/**
+	 * The main method.
+	 *
+	 * @param args the arguments
+	 * @throws Exception the exception
+	 */
 	public static void main(String[] args) throws Exception {
 		
 		Collection<String> coll = DataGenerator.getLargeCollection(10000);

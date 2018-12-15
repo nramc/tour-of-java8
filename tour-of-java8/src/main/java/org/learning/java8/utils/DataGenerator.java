@@ -7,8 +7,18 @@ import java.util.HashSet;
 import java.util.Stack;
 import java.util.Vector;
 
+// TODO: Auto-generated Javadoc
+/**
+ * The Class DataGenerator.
+ */
 public class DataGenerator {
 	
+	/**
+	 * Gets the collection.
+	 *
+	 * @param collType the coll type
+	 * @return the collection
+	 */
 	public static Collection<String> getCollection(String collType) {
 		Collection<String> coll = null;
 		switch( collType ) {
@@ -31,6 +41,12 @@ public class DataGenerator {
 		return coll;
 	}
 	
+	/**
+	 * Gets the large collection.
+	 *
+	 * @param maxSize the max size
+	 * @return the large collection
+	 */
 	public static Collection<String> getLargeCollection(long maxSize) {
 		Collection<String> coll = new ArrayList<String>();
 		
