@@ -7,5 +7,7 @@ The Project has simple code for following #java8 features,
 <UL>
   <li>Lambda Expression </li>
   <li>Collection Streams</li>
-  <a href="./file01.html">link</a>
 </UL>
+
+
+<a href="./tour-of-java8/doc/index.html">Project Examples</a>
